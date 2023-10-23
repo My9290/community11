@@ -49,6 +49,7 @@ public class HomeController {
         }
         model.addAttribute("discussPosts",discussPosts);
         return "/index";
+        //更新代码提交到github
     }
 
 
