@@ -52,6 +52,11 @@ public class HomeController {
         //更新代码提交到github
     }
 
+    @RequestMapping(path = "/error",method = RequestMethod.GET)
+    public String getErrorPage(){
+        return "error/500";
+    }
+
 
 
 

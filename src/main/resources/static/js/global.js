@@ -1,4 +1,6 @@
-window.alert = function(message) {
+var CONTEXT_PATH = "/community1";
+
+indow.alert = function(message) {
 	if(!$(".alert-box").length) {
 		$("body").append(
 			'<div class="modal alert-box" tabindex="-1" role="dialog">'+
