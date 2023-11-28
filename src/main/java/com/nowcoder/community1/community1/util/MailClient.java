@@ -11,6 +11,9 @@ import org.springframework.stereotype.Component;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
+/**
+ * 发送邮件的功能
+ */
 @Component
 public class MailClient {
     private static final Logger logger = LoggerFactory.getLogger(MailClient.class);
@@ -21,6 +24,12 @@ public class MailClient {
     @Value("${spring.mail.username}")
     private String from;
 
+    /**
+     *
+     * @param to 发送给谁
+     * @param subject 邮件主题
+     * @param content 邮件内容
+     */
     public void sendMail(String to,String subject,String content){
         try {
             MimeMessage message = mailSender.createMimeMessage();
