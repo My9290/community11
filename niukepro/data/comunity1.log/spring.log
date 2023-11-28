@@ -1,0 +1,24 @@
+2023-10-20 21:57:23.415  INFO 26316 --- [restartedMain] c.n.c.community1.Community1Application   : Starting Community1Application using Java 1.8.0_131 on LAPTOP-QGUQ9FTU with PID 26316 (D:\niukepro\community1\target\classes started by LENOVO in D:\niukepro\community1)
+2023-10-20 21:57:23.416 DEBUG 26316 --- [restartedMain] c.n.c.community1.Community1Application   : Running with Spring Boot v2.7.16, Spring v5.3.30
+2023-10-20 21:57:23.416  INFO 26316 --- [restartedMain] c.n.c.community1.Community1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:57:23.830  INFO 26316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:57:23.831  INFO 26316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 21:57:23.831  INFO 26316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 21:57:23.892  INFO 26316 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community1]    : Initializing Spring embedded WebApplicationContext
+2023-10-20 21:57:23.892  INFO 26316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 474 ms
+2023-10-20 21:57:24.047  INFO 26316 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-20 21:57:24.179  INFO 26316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-20 21:57:24.185  INFO 24960 --- [main] c.n.community1.community1.LoggerTests    : Starting LoggerTests using Java 1.8.0_131 on LAPTOP-QGUQ9FTU with PID 24960 (started by LENOVO in D:\niukepro\community1)
+2023-10-20 21:57:24.186 DEBUG 24960 --- [main] c.n.community1.community1.LoggerTests    : Running with Spring Boot v2.7.16, Spring v5.3.30
+2023-10-20 21:57:24.187  INFO 24960 --- [main] c.n.community1.community1.LoggerTests    : No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:57:24.197  INFO 26316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community1'
+2023-10-20 21:57:24.204  INFO 26316 --- [restartedMain] c.n.c.community1.Community1Application   : Started Community1Application in 0.901 seconds (JVM running for 2112.281)
+2023-10-20 21:57:24.207  INFO 26316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-20 21:57:28.102  INFO 24960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-20 21:57:29.351  INFO 24960 --- [main] c.n.community1.community1.LoggerTests    : Started LoggerTests in 5.703 seconds (JVM running for 7.13)
+2023-10-20 21:57:29.837 DEBUG 24960 --- [main] c.n.community1.community1.LoggerTests    : log debug
+2023-10-20 21:57:29.837  INFO 24960 --- [main] c.n.community1.community1.LoggerTests    : log info
+2023-10-20 21:57:29.838  WARN 24960 --- [main] c.n.community1.community1.LoggerTests    : log warn
+2023-10-20 21:57:29.838 ERROR 24960 --- [main] c.n.community1.community1.LoggerTests    : log error
+2023-10-20 21:58:03.031  INFO 26316 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-20 21:58:04.328  INFO 26316 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
